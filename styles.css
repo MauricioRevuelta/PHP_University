@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html {
+	background-color: #3498db;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color: black;
+	font-size: 1rem;
+    padding: 1em;
+}
+
+body {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+    color: #333;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #333;
+}
+
+input[type="submit"]:hover {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-shadow: 1px 1px 2px darkblue;
+    font-size: medium;
+}
+
+input[type="submit"]:hover{
+    background-color: #1a608f;
+}
+
+textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Combined with the page */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px; /* Increased space between nav links */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Combined with the page */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px; /* Increased space between footer links */
+}
